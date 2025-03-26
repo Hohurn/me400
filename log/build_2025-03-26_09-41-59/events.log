@@ -1,0 +1,80 @@
+[0.000000] (-) TimerEvent: {}
+[0.001817] (dynamixel_velocity_controller) JobQueued: {'identifier': 'dynamixel_velocity_controller', 'dependencies': OrderedDict()}
+[0.002575] (dynamixel_velocity_controller) JobStarted: {'identifier': 'dynamixel_velocity_controller'}
+[0.098924] (-) TimerEvent: {}
+[0.199622] (-) TimerEvent: {}
+[0.300479] (-) TimerEvent: {}
+[0.401308] (-) TimerEvent: {}
+[0.502097] (-) TimerEvent: {}
+[0.602870] (-) TimerEvent: {}
+[0.703600] (-) TimerEvent: {}
+[0.804325] (-) TimerEvent: {}
+[0.905068] (-) TimerEvent: {}
+[1.005763] (-) TimerEvent: {}
+[1.106580] (-) TimerEvent: {}
+[1.207435] (-) TimerEvent: {}
+[1.309073] (-) TimerEvent: {}
+[1.409980] (-) TimerEvent: {}
+[1.511248] (-) TimerEvent: {}
+[1.612221] (-) TimerEvent: {}
+[1.712974] (-) TimerEvent: {}
+[1.813743] (-) TimerEvent: {}
+[1.914594] (-) TimerEvent: {}
+[2.015359] (-) TimerEvent: {}
+[2.116140] (-) TimerEvent: {}
+[2.216871] (-) TimerEvent: {}
+[2.317672] (-) TimerEvent: {}
+[2.418441] (-) TimerEvent: {}
+[2.519169] (-) TimerEvent: {}
+[2.619890] (-) TimerEvent: {}
+[2.720710] (-) TimerEvent: {}
+[2.821490] (-) TimerEvent: {}
+[2.922273] (-) TimerEvent: {}
+[3.023097] (-) TimerEvent: {}
+[3.123950] (-) TimerEvent: {}
+[3.224593] (-) TimerEvent: {}
+[3.325581] (-) TimerEvent: {}
+[3.399643] (dynamixel_velocity_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/dynamixel_velocity_controller', 'build', '--build-base', '/home/ubuntu/ros2_ws/build/dynamixel_velocity_controller/build', 'install', '--record', '/home/ubuntu/ros2_ws/build/dynamixel_velocity_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ros2_ws/src/dynamixel_velocity_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.50.146 49691 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/robotics_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ubuntu/robotics_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/ubuntu/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.84.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-4be9b14b-5313-4060-ba7f-a21f1c717e46.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install:/home/ubuntu/robotics_ws/install:/home/ubuntu/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/home/ubuntu/.local/bin:/opt/ros/humble/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-59dba62143.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/dynamixel_velocity_controller:/home/ubuntu/robotics_ws/install/dynamixel_sdk_examples:/home/ubuntu/robotics_ws/install/dynamixel_sdk_custom_interfaces:/home/ubuntu/robotics_ws/install/dynamixel_sdk:/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/ros2_ws/build/dynamixel_velocity_controller', 'OPENCR_PORT': '/dev/ttyACM0', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.50.146 49691 192.168.50.189 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/ubuntu/ros2_ws/build/dynamixel_velocity_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/dynamixel_velocity_controller/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/dynamixel_velocity_controller/lib/python3.10/site-packages:/home/ubuntu/robotics_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/robotics_ws/install/dynamixel_sdk_examples:/home/ubuntu/robotics_ws/install/dynamixel_sdk_custom_interfaces:/home/ubuntu/robotics_ws/install/dynamixel_sdk:/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/ld08_driver', 'OPENCR_MODEL': 'burger'}, 'shell': False}
+[3.425787] (-) TimerEvent: {}
+[3.526709] (-) TimerEvent: {}
+[3.627506] (-) TimerEvent: {}
+[3.728324] (-) TimerEvent: {}
+[3.829079] (-) TimerEvent: {}
+[3.929840] (-) TimerEvent: {}
+[4.030704] (-) TimerEvent: {}
+[4.132352] (-) TimerEvent: {}
+[4.234113] (-) TimerEvent: {}
+[4.334961] (-) TimerEvent: {}
+[4.435682] (-) TimerEvent: {}
+[4.536507] (-) TimerEvent: {}
+[4.637298] (-) TimerEvent: {}
+[4.738083] (-) TimerEvent: {}
+[4.829130] (dynamixel_velocity_controller) StdoutLine: {'line': b'running egg_info\n'}
+[4.832531] (dynamixel_velocity_controller) StdoutLine: {'line': b'writing ../../build/dynamixel_velocity_controller/dynamixel_velocity_controller.egg-info/PKG-INFO\n'}
+[4.834619] (dynamixel_velocity_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/dynamixel_velocity_controller/dynamixel_velocity_controller.egg-info/dependency_links.txt\n'}
+[4.835281] (dynamixel_velocity_controller) StdoutLine: {'line': b'writing entry points to ../../build/dynamixel_velocity_controller/dynamixel_velocity_controller.egg-info/entry_points.txt\n'}
+[4.835992] (dynamixel_velocity_controller) StdoutLine: {'line': b'writing requirements to ../../build/dynamixel_velocity_controller/dynamixel_velocity_controller.egg-info/requires.txt\n'}
+[4.836593] (dynamixel_velocity_controller) StdoutLine: {'line': b'writing top-level names to ../../build/dynamixel_velocity_controller/dynamixel_velocity_controller.egg-info/top_level.txt\n'}
+[4.838333] (-) TimerEvent: {}
+[4.845891] (dynamixel_velocity_controller) StdoutLine: {'line': b"reading manifest file '../../build/dynamixel_velocity_controller/dynamixel_velocity_controller.egg-info/SOURCES.txt'\n"}
+[4.850444] (dynamixel_velocity_controller) StdoutLine: {'line': b"writing manifest file '../../build/dynamixel_velocity_controller/dynamixel_velocity_controller.egg-info/SOURCES.txt'\n"}
+[4.851187] (dynamixel_velocity_controller) StdoutLine: {'line': b'running build\n'}
+[4.851705] (dynamixel_velocity_controller) StdoutLine: {'line': b'running build_py\n'}
+[4.852475] (dynamixel_velocity_controller) StdoutLine: {'line': b'copying dynamixel_velocity_controller/velocity_controller.py -> /home/ubuntu/ros2_ws/build/dynamixel_velocity_controller/build/lib/dynamixel_velocity_controller\n'}
+[4.854168] (dynamixel_velocity_controller) StdoutLine: {'line': b'running install\n'}
+[4.855488] (dynamixel_velocity_controller) StdoutLine: {'line': b'running install_lib\n'}
+[4.858937] (dynamixel_velocity_controller) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/dynamixel_velocity_controller/build/lib/dynamixel_velocity_controller/velocity_controller.py -> /home/ubuntu/ros2_ws/install/dynamixel_velocity_controller/lib/python3.10/site-packages/dynamixel_velocity_controller\n'}
+[4.863394] (dynamixel_velocity_controller) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/dynamixel_velocity_controller/lib/python3.10/site-packages/dynamixel_velocity_controller/velocity_controller.py to velocity_controller.cpython-310.pyc\n'}
+[4.868046] (dynamixel_velocity_controller) StdoutLine: {'line': b'running install_data\n'}
+[4.868866] (dynamixel_velocity_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.877164] (dynamixel_velocity_controller) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_ws/install/dynamixel_velocity_controller/lib/python3.10/site-packages/dynamixel_velocity_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.880342] (dynamixel_velocity_controller) StdoutLine: {'line': b'Copying ../../build/dynamixel_velocity_controller/dynamixel_velocity_controller.egg-info to /home/ubuntu/ros2_ws/install/dynamixel_velocity_controller/lib/python3.10/site-packages/dynamixel_velocity_controller-0.0.0-py3.10.egg-info\n'}
+[4.892715] (dynamixel_velocity_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[4.938373] (-) TimerEvent: {}
+[4.979640] (dynamixel_velocity_controller) StdoutLine: {'line': b'Installing velocity_controller script to /home/ubuntu/ros2_ws/install/dynamixel_velocity_controller/lib/dynamixel_velocity_controller\n'}
+[4.981736] (dynamixel_velocity_controller) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/build/dynamixel_velocity_controller/install.log'\n"}
+[5.038670] (-) TimerEvent: {}
+[5.110793] (dynamixel_velocity_controller) CommandEnded: {'returncode': 0}
+[5.139181] (-) TimerEvent: {}
+[5.173957] (dynamixel_velocity_controller) JobEnded: {'identifier': 'dynamixel_velocity_controller', 'rc': 0}
+[5.177409] (-) EventReactorShutdown: {}

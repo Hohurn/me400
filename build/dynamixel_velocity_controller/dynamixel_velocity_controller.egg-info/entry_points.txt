@@ -1,0 +1,3 @@
+[console_scripts]
+velocity_controller = dynamixel_velocity_controller.velocity_controller:main
+

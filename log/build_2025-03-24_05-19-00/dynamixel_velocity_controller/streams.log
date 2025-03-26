@@ -1,0 +1,37 @@
+[3.377s] Invoking command in '/home/ubuntu/ros2_ws/src/dynamixel_velocity_controller': PYTHONPATH=/home/ubuntu/ros2_ws/build/dynamixel_velocity_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/dynamixel_velocity_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dynamixel_velocity_controller build --build-base /home/ubuntu/ros2_ws/build/dynamixel_velocity_controller/build install --record /home/ubuntu/ros2_ws/build/dynamixel_velocity_controller/install.log --single-version-externally-managed install_data
+[4.557s] running egg_info
+[4.560s] creating ../../build/dynamixel_velocity_controller/dynamixel_velocity_controller.egg-info
+[4.561s] writing ../../build/dynamixel_velocity_controller/dynamixel_velocity_controller.egg-info/PKG-INFO
+[4.562s] writing dependency_links to ../../build/dynamixel_velocity_controller/dynamixel_velocity_controller.egg-info/dependency_links.txt
+[4.563s] writing entry points to ../../build/dynamixel_velocity_controller/dynamixel_velocity_controller.egg-info/entry_points.txt
+[4.564s] writing requirements to ../../build/dynamixel_velocity_controller/dynamixel_velocity_controller.egg-info/requires.txt
+[4.564s] writing top-level names to ../../build/dynamixel_velocity_controller/dynamixel_velocity_controller.egg-info/top_level.txt
+[4.565s] writing manifest file '../../build/dynamixel_velocity_controller/dynamixel_velocity_controller.egg-info/SOURCES.txt'
+[4.572s] reading manifest file '../../build/dynamixel_velocity_controller/dynamixel_velocity_controller.egg-info/SOURCES.txt'
+[4.576s] writing manifest file '../../build/dynamixel_velocity_controller/dynamixel_velocity_controller.egg-info/SOURCES.txt'
+[4.577s] running build
+[4.578s] running build_py
+[4.579s] creating /home/ubuntu/ros2_ws/build/dynamixel_velocity_controller/build
+[4.579s] creating /home/ubuntu/ros2_ws/build/dynamixel_velocity_controller/build/lib
+[4.579s] creating /home/ubuntu/ros2_ws/build/dynamixel_velocity_controller/build/lib/dynamixel_velocity_controller
+[4.580s] copying dynamixel_velocity_controller/velocity_controller.py -> /home/ubuntu/ros2_ws/build/dynamixel_velocity_controller/build/lib/dynamixel_velocity_controller
+[4.580s] copying dynamixel_velocity_controller/__init__.py -> /home/ubuntu/ros2_ws/build/dynamixel_velocity_controller/build/lib/dynamixel_velocity_controller
+[4.581s] running install
+[4.582s] running install_lib
+[4.585s] creating /home/ubuntu/ros2_ws/install/dynamixel_velocity_controller/lib/python3.10/site-packages/dynamixel_velocity_controller
+[4.586s] copying /home/ubuntu/ros2_ws/build/dynamixel_velocity_controller/build/lib/dynamixel_velocity_controller/velocity_controller.py -> /home/ubuntu/ros2_ws/install/dynamixel_velocity_controller/lib/python3.10/site-packages/dynamixel_velocity_controller
+[4.587s] copying /home/ubuntu/ros2_ws/build/dynamixel_velocity_controller/build/lib/dynamixel_velocity_controller/__init__.py -> /home/ubuntu/ros2_ws/install/dynamixel_velocity_controller/lib/python3.10/site-packages/dynamixel_velocity_controller
+[4.590s] byte-compiling /home/ubuntu/ros2_ws/install/dynamixel_velocity_controller/lib/python3.10/site-packages/dynamixel_velocity_controller/velocity_controller.py to velocity_controller.cpython-310.pyc
+[4.592s] byte-compiling /home/ubuntu/ros2_ws/install/dynamixel_velocity_controller/lib/python3.10/site-packages/dynamixel_velocity_controller/__init__.py to __init__.cpython-310.pyc
+[4.593s] running install_data
+[4.594s] creating /home/ubuntu/ros2_ws/install/dynamixel_velocity_controller/share/ament_index
+[4.594s] creating /home/ubuntu/ros2_ws/install/dynamixel_velocity_controller/share/ament_index/resource_index
+[4.594s] creating /home/ubuntu/ros2_ws/install/dynamixel_velocity_controller/share/ament_index/resource_index/packages
+[4.595s] copying resource/dynamixel_velocity_controller -> /home/ubuntu/ros2_ws/install/dynamixel_velocity_controller/share/ament_index/resource_index/packages
+[4.595s] copying package.xml -> /home/ubuntu/ros2_ws/install/dynamixel_velocity_controller/share/dynamixel_velocity_controller
+[4.596s] running install_egg_info
+[4.603s] Copying ../../build/dynamixel_velocity_controller/dynamixel_velocity_controller.egg-info to /home/ubuntu/ros2_ws/install/dynamixel_velocity_controller/lib/python3.10/site-packages/dynamixel_velocity_controller-0.0.0-py3.10.egg-info
+[4.609s] running install_scripts
+[4.695s] Installing velocity_controller script to /home/ubuntu/ros2_ws/install/dynamixel_velocity_controller/lib/dynamixel_velocity_controller
+[4.697s] writing list of installed files to '/home/ubuntu/ros2_ws/build/dynamixel_velocity_controller/install.log'
+[4.815s] Invoked command in '/home/ubuntu/ros2_ws/src/dynamixel_velocity_controller' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/dynamixel_velocity_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/dynamixel_velocity_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dynamixel_velocity_controller build --build-base /home/ubuntu/ros2_ws/build/dynamixel_velocity_controller/build install --record /home/ubuntu/ros2_ws/build/dynamixel_velocity_controller/install.log --single-version-externally-managed install_data
